@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+           <div class="header-text">
+               <p>Web Designer</p>
+                <h1>Hi, I'm <span>Poonam Suryawanshi</span><br>From Malegaon</h1>
+            </div>
+        </div>
+    </div>
+    <!-- <----about----> 
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://freesvg.org/img/abstract-user-flat-4.png" alt="">
+                </div>
+                <div class="about-col-1">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello I am poonam,I have BCA Student,I am flexible,realible and possess excellent time keeping skills.
+                        I am a self-motivated and responsible Women.I have mature in Team Worker and adaptable to all challeging situation.
+                    And also able to work well both in team environment  as well as using own initiatives.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML/CSS</span><br>Designing Web/App Interface</li>
+                            <br>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <br>
+                            <li><span>SQL/PLSQL</span><br>Manage Data</li>
+                            <br>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                            <br>
+                            <li><span>C Language</span><br>Bulding  backend Process</li>
+                            <br>
+                            <li><span>Data Warehousing</span><br>Collection Data</li>
+                            <br>
+                            <li><span>C#(Dot Net)</span><br>Building application</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-current</span><br>Designing Web/App Interface Training at Fortune Cloud Institute</li>
+                            <br>
+                            <li><span>2024-current</span><br>Web app Development Training at Fortune Cloud Institute</li>
+                            <br>
+                            <li><span>2024-current</span><br>Manage Data Internship At College</li>
+                            <br>
+                            <li><span>2021-2023</span><br>Building Android apps Training at SNDT Womens University Mumbai</li>
+                            <br>
+                            <li><span>2021-2022</span><br>Bulding  backend Process Taining at Indira College</li>
+                            <br>
+                            <li><span>Data Warehousing</span><br>Collection Data Taining at Indira College</li>
+                            <br>
+                            <li><span>2024-current</span><br>Building application Taining at Fortune Cloud</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024</span><br>Designing Web/App Interface</li>
+                            <br>
+                            <li><span>2024</span><br>MCA (first year) from SPPU University Pune</li>
+                            <br>
+                            <li><span>2023-2024</span><br>BCA (2nd Rank) SNDT Womens University Mumbai</li>
+                            <br>
+                            <li><span>2022</span><br>Basic JAVA Course from Dattaprasad Edu. Institute Malegaon</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!-- ---services--- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Blanditiis tenetur adipisci illo ut officiis quas magni quidem earum, sunt in
+                         laboriosam nisi molestias nemo. Quisquam quam eum debitis libero temporibus.</p>
+                         <a href="#">Learn more>
+                        </a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>C# Dot Net  Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Blanditiis tenetur adipisci illo ut officiis quas magni quidem earum, sunt in
+                         laboriosam nisi molestias nemo. Quisquam quam eum debitis libero temporibus.</p>
+                         <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Developer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Blanditiis tenetur adipisci illo ut officiis quas magni quidem earum, sunt in
+                         laboriosam nisi molestias nemo. Quisquam quam eum debitis libero temporibus.</p>
+                         <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- ---portfolio--- -->
+    <div class="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="./bg-3.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connect you to the talented people around the word.
+                            Download it from playstore.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./bg-2.jpg">
+                    <div class="layer">
+                        <h3>Music Player App</h3>
+                        <p>The app connect you to the talented people around the word.
+                            Download it from playstore.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./bg-1.jpg">
+                    <div class="layer">
+                        <h3>Shopping App</h3>
+                        <p>The app connect you to the talented people around the word.
+                            Download it from playstore.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div> 
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+      <!-- ----contact--- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i> poonamsuryawanshi2322@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9156117824</p>
+                    <div class="social-icon">
+                        <a href="instagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="whatsapp.com"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href="telegram.com"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="linkdlin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./POONAM (1).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <div class="copyright">
+    <p>Copyright@ Made with <i class="fa-solid fa-heart"></i> By @PoonamRavindraSuryawanshi </p>
+   </div> 
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script> 
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script> 
+</body>
+</html>
